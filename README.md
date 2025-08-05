@@ -10,5 +10,5 @@ client=local
   
 127.0.0.1 is the local loopback address and is the default  
 8888 is the default listening port  
-source and client only used it using internal test procedures- otherwise don't include   
+source and client only used for internal test procedures- otherwise don't include   
 Should be compatible with Windows, Linux, and MacOS but only tested in Windows.
