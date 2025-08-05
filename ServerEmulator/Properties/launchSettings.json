@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ServerEmulator": {
+      "commandName": "Project",
+      "commandLineArgs": "host=127.0.0.1\r\nport=8888\r\nsource=testbrief.txt\r\nClient=local"
+    }
+  }
+}

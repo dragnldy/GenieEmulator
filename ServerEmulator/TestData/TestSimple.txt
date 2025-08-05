@@ -1,0 +1,232 @@
+﻿Time:3/29/2014 3:17:45 PM////<mode id="GAME"/><settings client="1.0.1.26" major="1"><presets><p id='roomName' color='skin' bgcolor='skin' line='y'/><p id='bold' color='skin' bgcolor='skin'/><p id='speech' color='skin' bgcolor='skin'/><p id='whisper' color='skin' bgcolor='skin'/><p id='thought' color='skin' bgcolor='skin'/><p id='watching' color='skin' bgcolor='skin'/><p id='link' color='skin' bgcolor='skin' ulcolor="skin"/><p id='selectedLink' color='skin' bgcolor='skin'/><p id='command' color='skin' bgcolor='skin'/></presets><macros><keys id='0' name='(default)'><k key='Alt-C' action='\xxml toggle containers\r'/><k key='Alt-D' action='\xxml toggle dialogs\r'/><k key='Alt-Ctrl-E' action='{ExportDialog}'/><k key='Alt-Ctrl-H' action='{HighlightsDialog}'/><k key='Alt-Ctrl-I' action='{ImportDialog}'/><k key='Alt-L' action='{ToggleLinks}'/><k key='Alt-M' action='{ToggleMusic}'/><k key='Alt-I' action='{ToggleImages}'/><k key='Alt-S' action='{ToggleSounds}'/><k key='Alt-Ctrl-M' action='{MacrosDialog}'/><k key='Alt-Ctrl-S' action='{ChooseSkin}'/><k key='Alt-V' action='{VariablesDialog}'/><k key='Alt-0' action='{MacroSet}0'/><k key='Alt-1' action='{MacroSet}1'/><k key='Alt-2' action='{MacroSet}2'/><k key='Alt-3' action='{MacroSet}3'/><k key='Alt-4' action='{MacroSet}4'/><k key='Alt-5' action='{MacroSet}5'/><k key='Alt-6' action='{MacroSet}6'/><k key='Alt-7' action='{MacroSet}7'/><k key='Alt-8' action='{MacroSet}8'/><k key='Alt-9' action='{MacroSet}9'/><k key='Ctrl-F5' action='{Restart}'/><k key='Ctrl-R' action='{Rest}'/><k key='Keypad +' action='look\r'/><k key='Keypad /' action='health\r'/><k key='Keypad *' action='exp\r'/><k key='Keypad -' action='info\r'/><k key='Keypad .' action='\xup\r'/><k key='Keypad 0' action='\xdown\r'/><k key='Keypad 1' action='\xsw\r'/><k key='Keypad 2' action='\xs\r'/><k key='Keypad 3' action='\xse\r'/><k key='Keypad 4' action='\xw\r'/><k key='Keypad 5' action='\xout\r'/><k key='Keypad 6' action='\xe\r'/><k key='Keypad 7' action='\xnw\r'/><k key='Keypad 8' action='\xn\r'/><k key='Keypad 9' action='\xne\r'/><k key='Page Up' action='{PageUp}'/><k key='Page Down' action='{PageDown}'/><k key='Shift-Page Up' action='{LineUp}'/><k key='Shift-Page Down' action='{LineDown}'/><k key='UP' action='{HistoryPrev}'/><k key='DOWN' action='{HistoryNext}'/><k key='Ctrl-Enter' action='{RepeatLast}'/><k key='Alt-Enter' action='{RepeatSecondToLast}'/><k key='Keypad Enter' action='{ReturnOrRepeatLast}'/><k key='Ctrl-Keypad Enter' action='{RepeatLast}'/><k key='Alt-Keypad Enter' action='{RepeatSecondToLast}'/><k key='Tab' action='{CycleWindows}'/><k key='Ctrl-Page Up' action='{BufferTop}'/><k key='Ctrl-Page Down' action='{BufferBottom}'/><k key='Ctrl-Home' action='{BufferTop}'/><k key='Ctrl-End' action='{BufferBottom}'/><k key='Shift-Tab' action='{CycleWindowsReverse}'/><k key='Ctrl-A' action='{SelectAll}'/><k key='Ctrl-C' action='{Copy}'/><k key='Ctrl-X' action='{Cut}'/><k key='Ctrl-V' action='{Paste}'/><k key='Ctrl-Insert' action='{Copy}'/><k key='Shift-Insert' action='{Paste}'/><k key='Shift-Esc' action='{PauseScript}'/></keys><keys id='1' name='Macro set 1'></keys><keys id='2' name='Macro set 2'></keys><keys id='3' name='Macro set 3'></keys><keys id='4' name='Macro set 4'></keys><keys id='5' name='Macro set 5'></keys><keys id='6' name='Macro set 6'></keys><keys id='7' name='Macro set 7'></keys><keys id='8' name='Macro set 8'></keys><keys id='9' name='Macro set 9'></keys></macros><palette><i id='0' color='#FFFF90'/><i id='1' color='#FFD2A1'/><i id='2' color='#FF9099'/><i id='3' color='#FF6699'/><i id='4' color='#FF3399'/><i id='5' color='#FF00A1'/><i id='6' color='#FF0000'/><i id='7' color='#FF3300'/><i id='8' color='#FF6600'/><i id='9' color='#FF9000'/><i id='10' color='#FFD200'/><i id='11' color='#FFFF00'/><i id='12' color='#33FF08'/><i id='13' color='#39CC00'/><i id='14' color='#399900'/><i id='15' color='#296B00'/><i id='16' color='#293900'/><i id='17' color='#291808'/><i id='18' color='#08007B'/><i id='19' color='#333399'/><i id='20' color='#336699'/><i id='21' color='#2999A1'/><i id='22' color='#4AE3B9'/><i id='23' color='#33F390'/><i id='24' color='#FFFFDE'/><i id='25' color='#FFD6CE'/><i id='26' color='#FFA0E6'/><i id='27' color='#FF6BD2'/><i id='28' color='#E916B3'/><i id='29' color='#EA0ECC'/><i id='30' color='#E70000'/><i id='31' color='#AD0000'/><i id='32' color='#E65A29'/><i id='33' color='#F89439'/><i id='34' color='#E7BD18'/><i id='35' color='#FFF147'/><i id='36' color='#31E739'/><i id='37' color='#39CE43'/><i id='38' color='#298C31'/><i id='39' color='#316339'/><i id='40' color='#312931'/><i id='41' color='#291831'/><i id='42' color='#2108E7'/><i id='43' color='#3129CE'/><i id='44' color='#184AAD'/><i id='45' color='#319CCE'/><i id='46' color='#29D6CE'/><i id='47' color='#29F7CE'/><i id='48' color='#FFFFFF'/><i id='49' color='#FFCEFB'/><i id='50' color='#FF94F7'/><i id='51' color='#E67BF7'/><i id='52' color='#FB31FF'/><i id='53' color='#FF00FB'/><i id='54' color='#FF0063'/><i id='55' color='#A5186B'/><i id='56' color='#FF6B73'/><i id='57' color='#FFA077'/><i id='58' color='#E2CB6D'/><i id='59' color='#9CA510'/><i id='60' color='#00B529'/><i id='61' color='#008421'/><i id='62' color='#005218'/><i id='63' color='#104A39'/><i id='64' color='#292963'/><i id='65' color='#441477'/><i id='66' color='#0000FF'/><i id='67' color='#2108D6'/><i id='68' color='#3163F7'/><i id='69' color='#2994F7'/><i id='70' color='#29CEFF'/><i id='71' color='#65F9E9'/><i id='72' color='#FFEFFF'/><i id='73' color='#C698F7'/><i id='74' color='#A008D6'/><i id='75' color='#470062'/><i id='76' color='#390852'/><i id='77' color='#50185A'/><i id='78' color='#4A2142'/><i id='79' color='#4A1818'/><i id='80' color='#523131'/><i id='81' color='#7B3900'/><i id='82' color='#5A4A31'/><i id='83' color='#304000'/><i id='84' color='#292129'/><i id='85' color='#393939'/><i id='86' color='#52525A'/><i id='87' color='#73736B'/><i id='88' color='#B5B5B5'/><i id='89' color='#000000'/><i id='90' color='#FFFFFF'/><i id='91' color='#FFFFFF'/><i id='92' color='#FFFFFF'/><i id='93' color='#FFFFFF'/><i id='94' color='#FFFFFF'/><i id='95' color='#FFFFFF'/><i id='96' color='#FFFFFF'/><i id='97' color='#FFFFFF'/><i id='98' color='#FFFFFF'/><i id='99' color='#FFFFFF'/><i id='100' color='#FFFFFF'/><i id='101' color='#FFFFFF'/><i id='102' color='#FFFFFF'/><i id='103' color='#FFFFFF'/><i id='104' color='#FFFFFF'/><i id='105' color='#FFFFFF'/><i id='106' color='#FFFFFF'/><i id='107' color='#FFFFFF'/><i id='108' color='#FFFFFF'/><i id='109' color='#FFFFFF'/></palette><stream><w id='sinv' vis='t' frame='panel' height='94' location='right' panel='Right' open='t'/><w id='cstow' vis='t' panel='Right' frame='panel' open='t' height='94'/><w id='sdebug' frame='float' vis='f'/><w id='smain' frame='float' width='auto' x='auto' height='auto' y='187' vis='t' ts="14931"/><w id='sroom' frame='float' width='auto' x='540' height='162' y='auto' vis='t' nosound='' noignore='' location='center'></w><w id='sSpells' vis='t' frame='panel' height='172' location='left' panel='Left' open='t'><font face='Verdana' size='10'/></w><w id='snews' frame='float' width='auto' x='368' height='281' y='93' vis='t'/><w id='scharsheet' frame='float' location='detach' detach='t'><detach width='640' height='441'/></w><w id='sspellfront' vis='f' frame='panel' height='80' location='left' panel='Left' open='t'><font face='Verdana' size='10'/></w></stream><cmdline fgcolor='skin' bgcolor='skin' barcolor='skin'/><strings></strings><names></names><ignores></ignores><vars></vars><scripts prefix="."></scripts><dialog><w id='combat' vis='t' frame='panel' location='right' panel='Right' open='t'/><w id='injuries' vis='t' frame='panel' location='right' panel='Right' open='t'/><w id='expr' vis='t' frame='panel' location='left' panel='Left' open='t'/><w id='mapViewMain' vis='t' panel='Right' frame='float' height='162' open='t' width='532' x='auto' y='auto' location='center'></w><w id='mapMaster' panel='Right' frame='panel' height='200' open='f' width='194' x='364' y='50' location='right' vis='t'/></dialog><builtin><w id='windows' frame='panel' height='227' panel='Left' open='t' location='left' ts="14931"/></builtin><panels><group id='Left' open='t'><builtin id='windows'/><dialog id='expr'/><stream id='sSpells'/><stream id='sspellfront'/></group><group id='Right' open='t'><dialog id='combat'/><dialog id='injuries'/><stream id='sinv'/><stream id='cstow'/></group></panels><toggles><s id="CommandInputMode" state="t"/></toggles><misc><m id='inputhelp' value='y'/><m id='2chathelp' value='y'/><m id='2cmdhelp' value='y'/></misc><app maximized='t'/><display></display><options><o id='autoHideStory' checked='0'/><o id='scanForUrls' checked='1'/><o id='tod' checked='1'/><o id='showLinks' checked='1'/><o id='localEcho' checked='1'/><o id='scrollBackSize' value='2000'/><o id='music' checked='0'/><o id='sound' checked='1'/><o id='images' checked='1'/><o id='colonThinkTo' checked='0'/></options></settings>
+Time:3/29/2014 3:17:45 PM////Please wait for connection to game server.
+Time:3/29/2014 3:17:45 PM////<settingsInfo  client="1.0.1.26" major="953" crc='3723255813' instance='DR'/>
+Time:3/29/2014 3:17:55 PM////<mode id="GAME"/>
+Time:3/29/2014 3:17:55 PM////Welcome to DragonRealms (R) v2.00
+Time:3/29/2014 3:17:55 PM////Copyright 2014 Simutronics Corp.
+Time:3/29/2014 3:17:55 PM////All Rights Reserved
+Time:3/29/2014 3:17:55 PM////<mode id="GAME"/>
+Time:3/29/2014 3:17:55 PM////<app char="Sanrisi" game="DR" title="[DR: Sanrisi] StormFront"/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id="main" title="Story" location="center" target="drop" resident="true"/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id='inv' title='My Inventory' target='wear' ifClosed='' resident='true'/><clearStream id='inv' ifClosed=''/><pushStream id='inv'/>Your worn items are:
+Time:3/29/2014 3:17:55 PM////  a leather targe painted with a majestic meadow scene
+Time:3/29/2014 3:17:55 PM////  a glittering glass moon orchid
+Time:3/29/2014 3:17:55 PM////  a pair of grey Musparan silk gloves with abstract silver beadwork adorning the backs
+Time:3/29/2014 3:17:55 PM////  a delicate butterfly orchid haircomb set with large geshi pearls
+Time:3/29/2014 3:17:55 PM////  a soft suede foraging apron adorned with carved wooden herb charms
+Time:3/29/2014 3:17:55 PM////  a pure white duffel bag embroidered with a jeweled chalice
+Time:3/29/2014 3:17:55 PM////  a deep black spidersilk haversack clasped with a sharp dagger
+Time:3/29/2014 3:17:55 PM////  a ruby-encrusted tear-shaped pin
+Time:3/29/2014 3:17:55 PM////  a wide blackworked silk belt edged with golden lace
+Time:3/29/2014 3:17:55 PM////  an electrum circlet adorned with elegant teardrop diamonds
+Time:3/29/2014 3:17:55 PM////  a dark suede pack with green leaves embroidered along its edges
+Time:3/29/2014 3:17:55 PM////  a deep green leather and cambrinth armband
+Time:3/29/2014 3:17:55 PM////  a finely honed belt knife
+Time:3/29/2014 3:17:55 PM////  a pair of exquisitely detailed earrings shaped like dragons with sapphire, diamond and emerald encrusted wings and a single, perfect ruby for its heart
+Time:3/29/2014 3:17:55 PM////  a delicate black crystal earcuff in the shape of a sleeping baby dragon
+Time:3/29/2014 3:17:55 PM////  a silver kyanite gwethdesuan
+Time:3/29/2014 3:17:55 PM////  a silver jadeite gwethdesuan
+Time:3/29/2014 3:17:55 PM////  a black silk thigh pouch with an intertwined mask clasp
+Time:3/29/2014 3:17:55 PM////  a deep crimson oblong gourd embellished at the rim with bright gidii feathers
+Time:3/29/2014 3:17:55 PM////  a dark silk corset embroidered with a raven in flight
+Time:3/29/2014 3:17:55 PM////  a lustrous ebony spellbook case inset with silvery crystal stars
+Time:3/29/2014 3:17:55 PM////  a crimson silk caftan with dagged sleeves streaked with white
+Time:3/29/2014 3:17:55 PM////  a shimmering samite robe beaded with black seed pearls and gold to form a moonlit forest scene
+Time:3/29/2014 3:17:55 PM////  a broad cambrinth armband carved with the likeness of a sanrisi tree
+Time:3/29/2014 3:17:55 PM////  a delicate butterfly orchid haircomb set with large geshi pearls
+Time:3/29/2014 3:17:55 PM////  a Field Medic "On-duty" button
+Time:3/29/2014 3:17:55 PM////  a silver-hued parry stick with reinforced silken straps
+Time:3/29/2014 3:17:55 PM////  a robe of heavy grey Musparan silk embellished with abstract silver beadwork
+Time:3/29/2014 3:17:55 PM////  an enveloping cowl crafted of heavy grey Musparan silk
+Time:3/29/2014 3:17:55 PM////  some heavy grey Musparan silk legwraps
+Time:3/29/2014 3:17:55 PM////  an iridescent opal shaped like a tiny alfar avenger
+Time:3/29/2014 3:17:55 PM////  an antiqued copper alchemy kit
+Time:3/29/2014 3:17:55 PM////  a diminutive flower charm delicately carved from silver maplewood
+Time:3/29/2014 3:17:55 PM////<popStream/>
+Time:3/29/2014 3:17:55 PM////<exposeContainer id='stow'/><container id='stow' title="My Pack" target='#57581663' location='right' save='' resident='true'/><clearContainer id="stow"/><inv id='stow'>In the pack:</inv><inv id='stow'> a pair of palladium earstuds</inv><inv id='stow'> some tukai stones</inv><inv id='stow'> a caracal-pelt buckler</inv><inv id='stow'> some perfect bison-hide gloves</inv><inv id='stow'> a braided bundling rope</inv><inv id='stow'> a soft black leather gem pouch clasped by a small golden padlock</inv><inv id='stow'> a fuzzy gem pouch</inv><inv id='stow'> a soft black leather gem pouch clasped by a tiny golden padlock</inv><inv id='stow'> a simple black compendium</inv><inv id='stow'> a grey leather compendium embossed with a snakeskin pattern</inv><inv id='stow'> a cracked grey cambrinth femur wrapped in rawhide</inv><inv id='stow'> an almond</inv><inv id='stow'> an almond</inv><inv id='stow'> an almond</inv><inv id='stow'> an almond</inv><inv id='stow'> an almond</inv><inv id='stow'> a book of journeyman remedy instructions</inv><inv id='stow'> some water</inv><inv id='stow'> some dried jadice</inv><inv id='stow'> a blue flower</inv><inv id='stow'> some crushed riolur</inv><inv id='stow'> a misshapen driftwood herbal case inlaid with a knotwork kraken</inv><inv id='stow'> a walnut herbal case elegantly branded with a single silver rose</inv><inv id='stow'> some iron knitting needles</inv><inv id='stow'> a perfect bison-hide cowl</inv><inv id='stow'> a rich scarlet silk cloth sewn with golden and emerald diamonds</inv><inv id='stow'> a sharp dyrachis quill stylus with a twisted bone handle</inv><inv id='stow'> a lightly colored silk fan with twin beaded ribbons hanging from the grip</inv><inv id='stow'> a pale star-stone</inv><inv id='stow'> some jade worry beads carved in the shape of miniature turtles</inv><inv id='stow'> a wax label</inv><inv id='stow'> a silver key with a spider-web design on the grip</inv><inv id='stow'> a green hair brush</inv><inv id='stow'> a small rubber eraser</inv><inv id='stow'> an oilcloth packet</inv><inv id='stow'> a silver kyanite gwethdesuan</inv><inv id='stow'> some dolphin instructions</inv><inv id='stow'> a long platinum hairpin set with a large sparkling emerald</inv><inv id='stow'> a supple leather compendium edged with a braided burgundy cord</inv><inv id='stow'> some razor-sharp saucers</inv><inv id='stow'> an albredine crystal ring</inv><inv id='stow'> an albredine crystal ring</inv><inv id='stow'> a claw-footed stained marble mortar</inv><inv id='stow'> a bone-handled driftwood pestle</inv><inv id='stow'> a small gift bag</inv><inv id='stow'> a plush felt mace covered with faux gore</inv><inv id='stow'> some tukai stones</inv><inv id='stow'> some tukai stones</inv><inv id='stow'> some tukai stones</inv><inv id='stow'> some tukai stones</inv><openDialog type='dynamic' id='minivitals' title='Stats' location='statBar'><dialogData id='minivitals'></dialogData></openDialog>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><skin id='healthSkin' name='healthBar' controls='health' left='0%' top='0%' width='20%' height='100%'/><progressBar id='health' value='100' text='health 100%' left='0%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='24' text='mana 24%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><skin id='spiritSkin' name='spiritBar' controls='spirit' left='60%' top='0%' width='20%' height='100%'/><progressBar id='spirit' value='100' text='spirit 100%' left='60%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='100' text='fatigue 100%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><progressBar id='concentration' value='100' text='concentration 100%' left='80%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<openDialog type="dynamic" id="befriend" title="Friends &amp;&amp; Enemies" location="right" target="befriend" height="165" resident="true"><dialogData id="befriend"></dialogData></openDialog>
+Time:3/29/2014 3:17:55 PM////<dialogData id="befriend" clear="t"></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id="befriend"><label id='nofriends' align='n' value='No friends added'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<streamWindow id="familiar" title="Familiar" location="center" resident="true" styleIfClosed="watching"/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id="thoughts" title="Thoughts" location="center" resident="true" styleIfClosed="thought" timestamp="on"/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id="logons" title="Arrivals" location="left" resident="true" nameFilterOption="true" timestamp="on"/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id="death" title="Deaths" location="left" resident="true" nameFilterOption="true" timestamp="on"/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id="assess" title="Assess" location="right" resident="true"/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id='conversation' title='Conversation' location='center' resident='true' ifClosed='' timestamp='on'/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id='whispers' title='Whispers' location='center' resident='true' timestamp='on' ifClosed='conversation'/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id='talk' title='Talk' location='center' resident='true' timestamp='on' ifClosed='conversation'/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id='experience' title='Field Experience' location='center' target='drop' ifClosed='' resident='true'/><clearStream id='experience'/><pushStream id='experience'/><output class='mono'/>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Shield Usage'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Light Armor'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Chain Armor'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Brigandine'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Plate Armor'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Defending'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Parry Ability'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Small Edged'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Large Edged'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Twohanded Edged'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Small Blunt'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Large Blunt'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Twohanded Blunt'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Slings'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Bow'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Crossbow'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Staves'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Polearms'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Light Thrown'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Heavy Thrown'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Brawling'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Offhand Weapon'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Melee Mastery'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Missile Mastery'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Life Magic'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Attunement'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Arcana'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Targeted Magic'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Augmentation'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Debilitation'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Utility'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Warding'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Sorcery'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Evasion'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Athletics'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Perception'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Stealth'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Locksmithing'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Thievery'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp First Aid'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Outdoorsmanship'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Skinning'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Forging'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Engineering'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Outfitting'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Alchemy'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Enchanting'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Scholarship'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Mechanical Lore'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Appraisal'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Performance'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Empathy'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp Tactics'></compDef>
+Time:3/29/2014 3:17:55 PM////<compDef id='exp mindstate'></compDef>
+Time:3/29/2014 3:17:55 PM////<output class=''/>
+Time:3/29/2014 3:17:55 PM////<popStream id='experience'/>
+Time:3/29/2014 3:17:55 PM////<component id='exp Shield Usage'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Light Armor'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Chain Armor'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Brigandine'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Plate Armor'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Defending'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Parry Ability'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Small Edged'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Large Edged'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Twohanded Edged'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Small Blunt'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Large Blunt'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Twohanded Blunt'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Slings'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Bow'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Crossbow'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Staves'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Polearms'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Light Thrown'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Heavy Thrown'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Brawling'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Offhand Weapon'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Melee Mastery'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Missile Mastery'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Life Magic'>      Life Magic:  338 72% mind lock    </component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Attunement'>      Attunement:  285 93% dabbling     </component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Arcana'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Targeted Magic'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Augmentation'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Debilitation'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Utility'>         Utility:  326 20% mind lock    </component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Warding'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Sorcery'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Evasion'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Athletics'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Perception'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Stealth'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Locksmithing'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Thievery'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp First Aid'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Outdoorsmanship'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Skinning'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Forging'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Engineering'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Outfitting'>      Outfitting:  149 15% pondering    </component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Alchemy'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Enchanting'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Scholarship'>     Scholarship:  414 00% very engaged </component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Mechanical Lore'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Appraisal'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Performance'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Empathy'></component>
+Time:3/29/2014 3:17:55 PM////<component id='exp Tactics'></component>
+Time:3/29/2014 3:17:55 PM////<streamWindow id='group' title='Group' location='center' resident='true' ifClosed='' />
+Time:3/29/2014 3:17:55 PM////<streamWindow id='atmospherics' title='Atmospherics' location='center' resident='true' timestamp='on' ifClosed='main'/>
+Time:3/29/2014 3:17:55 PM////<streamWindow id='ooc' title='OOC' location='center' resident='true' timestamp='on' ifClosed=''/>
+Time:3/29/2014 3:17:55 PM////<openDialog id='quick-simu' location='quickBar' title='Information'><dialogData id='quick-simu' clear='true'><link id='1' value='Game Info' cmd='url:/dr/info/' /><link id='2' value='Calendar' cmd='url:/bounce/redirect.asp?URL=http://forums.play.net/calendar?game=dragonrealms' /><link id='3' value='Forums' cmd='bbs' echo='bbs' /><link id='4' value='News' cmd='news' echo='news' /><link id='5' value='Policy' cmd='policy' echo='policy' /><link id='6' value='Premium' cmd='premium' echo='premium' /><link id='7' value='Platinum' cmd='url:/dr/platinum/' /><link id='8' value='SimuCon' cmd='url:/bounce/redirect.asp?URL=http://www.simucon.com' /><link id='9' value='Box Office' cmd='url:/dr/boxoffice.asp' /><link id='10' value='Vote for DR!' cmd='url:/bounce/redirect.asp?URL=http://www.topmudsites.com/vote-DragonRealms.html' /></dialogData></openDialog>
+Time:3/29/2014 3:17:55 PM////<openDialog id='quick-char' location='quickBar' title='Character'><dialogData id='quick-char' clear='true'><link id='1' value='Info' cmd='info' echo='info' /><link id='2' value='Exp' cmd='exp' echo='exp' /><link id='3' value='Store' cmd='store window' echo='store window' /><link id='4' value='Look [self]' cmd='look Sanrisi' echo='look Sanrisi' /><link id='5' value='Look' cmd='look' echo='look' /><link id='6' value='Profile' cmd='profile /edit' echo='profile /edit' /><link id='7' value='Spells' cmd='spells' echo='spells' /><link id='8' value='Mana' cmd='mana' echo='mana' /><link id='9' value='Health' cmd='health' echo='health' /><link id='10' value='Wealth' cmd='wealth' echo='wealth' /><link id='11' value='Vote for DR!' cmd='url:/bounce/redirect.asp?URL=http://www.topmudsites.com/vote-DragonRealms.html' /></dialogData></openDialog>
+Time:3/29/2014 3:17:55 PM////<openDialog id='quick-blank' location='quickBar' title='Blank'><dialogData id='quick-blank' clear='true'></dialogData></openDialog>
+Time:3/29/2014 3:17:55 PM////<switchQuickBar id='quick-char'/>
+Time:3/29/2014 3:17:55 PM////<indicator id="IconKNEELING" visible="n"/><indicator id="IconPRONE" visible="n"/><indicator id="IconSITTING" visible="n"/><indicator id="IconSTANDING" visible="y"/><indicator id="IconSTUNNED" visible="n"/><indicator id="IconHIDDEN" visible="n"/><indicator id="IconINVISIBLE" visible="n"/><indicator id="IconDEAD" visible="n"/><indicator id="IconWEBBED" visible="n"/><indicator id="IconJOINED" visible="n"/>
+Time:3/29/2014 3:17:55 PM////<spell>None</spell>
+Time:3/29/2014 3:17:55 PM////<left>Empty</left><right>Empty</right>
+Time:3/29/2014 3:17:55 PM////<endSetup/>
+Time:3/29/2014 3:17:55 PM////<clearStream id='inv' ifClosed=''/><pushStream id='inv'/>Your worn items are:
+Time:3/29/2014 3:17:55 PM////  a leather targe painted with a majestic meadow scene
+Time:3/29/2014 3:17:55 PM////  a glittering glass moon orchid
+Time:3/29/2014 3:17:55 PM////  a pair of grey Musparan silk gloves with abstract silver beadwork adorning the backs
+Time:3/29/2014 3:17:55 PM////  a delicate butterfly orchid haircomb set with large geshi pearls
+Time:3/29/2014 3:17:55 PM////  a soft suede foraging apron adorned with carved wooden herb charms
+Time:3/29/2014 3:17:55 PM////  a pure white duffel bag embroidered with a jeweled chalice
+Time:3/29/2014 3:17:55 PM////  a deep black spidersilk haversack clasped with a sharp dagger
+Time:3/29/2014 3:17:55 PM////  a ruby-encrusted tear-shaped pin
+Time:3/29/2014 3:17:55 PM////  a wide blackworked silk belt edged with golden lace
+Time:3/29/2014 3:17:55 PM////  an electrum circlet adorned with elegant teardrop diamonds
+Time:3/29/2014 3:17:55 PM////  a dark suede pack with green leaves embroidered along its edges
+Time:3/29/2014 3:17:55 PM////  a deep green leather and cambrinth armband
+Time:3/29/2014 3:17:55 PM////  a finely honed belt knife
+Time:3/29/2014 3:17:55 PM////  a pair of exquisitely detailed earrings shaped like dragons with sapphire, diamond and emerald encrusted wings and a single, perfect ruby for its heart
+Time:3/29/2014 3:17:55 PM////  a delicate black crystal earcuff in the shape of a sleeping baby dragon
+Time:3/29/2014 3:17:55 PM////  a silver kyanite gwethdesuan
+Time:3/29/2014 3:17:55 PM////  a silver jadeite gwethdesuan
+Time:3/29/2014 3:17:55 PM////  a black silk thigh pouch with an intertwined mask clasp
+Time:3/29/2014 3:17:55 PM////  a deep crimson oblong gourd embellished at the rim with bright gidii feathers
+Time:3/29/2014 3:17:55 PM////  a dark silk corset embroidered with a raven in flight
+Time:3/29/2014 3:17:55 PM////  a lustrous ebony spellbook case inset with silvery crystal stars
+Time:3/29/2014 3:17:55 PM////  a crimson silk caftan with dagged sleeves streaked with white
+Time:3/29/2014 3:17:55 PM////  a shimmering samite robe beaded with black seed pearls and gold to form a moonlit forest scene
+Time:3/29/2014 3:17:55 PM////  a broad cambrinth armband carved with the likeness of a sanrisi tree
+Time:3/29/2014 3:17:55 PM////  a delicate butterfly orchid haircomb set with large geshi pearls
+Time:3/29/2014 3:17:55 PM////  a Field Medic "On-duty" button
+Time:3/29/2014 3:17:55 PM////  a silver-hued parry stick with reinforced silken straps
+Time:3/29/2014 3:17:55 PM////  a robe of heavy grey Musparan silk embellished with abstract silver beadwork
+Time:3/29/2014 3:17:55 PM////  an enveloping cowl crafted of heavy grey Musparan silk
+Time:3/29/2014 3:17:55 PM////  some heavy grey Musparan silk legwraps
+Time:3/29/2014 3:17:55 PM////  an iridescent opal shaped like a tiny alfar avenger
+Time:3/29/2014 3:17:55 PM////  an antiqued copper alchemy kit
+Time:3/29/2014 3:17:55 PM////  a diminutive flower charm delicately carved from silver maplewood
+Time:3/29/2014 3:17:55 PM////<popStream/>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><skin id='healthSkin' name='healthBar' controls='health' left='0%' top='0%' width='20%' height='100%'/><progressBar id='health' value='100' text='health 100%' left='0%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='24' text='mana 24%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><progressBar id='spirit' value='100' text='spirit 100%' left='60%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='100' text='fatigue 100%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<dialogData id='minivitals'><progressBar id='concentration' value='100' text='concentration 100%' left='80%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Time:3/29/2014 3:17:55 PM////<indicator id='IconBLEEDING' visible='n'/><streamWindow id='room' title='' subtitle='' location='center' target='drop' ifClosed='' resident='true'/>
+Time:3/29/2014 3:17:55 PM////<clearStream id='room'/>
+Time:3/29/2014 3:17:55 PM////<pushStream id='room'/>
+Time:3/29/2014 3:17:55 PM////<compDef id='room desc'/>  <compDef id='room creatures'/><compDef id='room objs'/>
+Time:3/29/2014 3:17:55 PM////<compDef id='room players'/>
+Time:3/29/2014 3:17:55 PM////<compDef id='room exits'/>
+Time:3/29/2014 3:17:55 PM////<compDef id='room extra'/>
+Time:3/29/2014 3:17:55 PM////<popStream id='room'/>
+Time:3/29/2014 3:17:55 PM////<nav/>
