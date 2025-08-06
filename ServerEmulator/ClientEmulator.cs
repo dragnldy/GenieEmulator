@@ -54,7 +54,7 @@ public class ClientEmulator
         {
             string messageToSend = string.IsNullOrEmpty(_greeting) ? "ECHO Hello from ClientEmulator" : _greeting;
             await _writer.WriteLineAsync(messageToSend).ConfigureAwait(false);
-            Task.Delay(100).Wait(); // Simulate some delay
+            Thread.Sleep(100); // Simulate some delay
             string data = await _reader.ReadLineAsync().ConfigureAwait(false);
             Console.WriteLine("Received: {0}", data);
             data = string.Empty;

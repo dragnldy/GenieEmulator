@@ -19,8 +19,10 @@ internal class Program
             Thread.Sleep(500); // Give the server time to startup
             var client = new ClientEmulator("ECHO Hello from external client");
             client.InitEmulator(host, port, sourcefile);
+            //client.InitEmulator(DefaultHost, DefaultPort, DefaultSourceFile);
         });
         Console.WriteLine("Connecting to server....Press Enter to Stop.");
+        Thread.Sleep(100000);
         Console.ReadLine();
     }
 

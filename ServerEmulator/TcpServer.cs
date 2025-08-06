@@ -7,13 +7,10 @@ namespace ServerEmulator;
 
 public class TcpServer
 {
-    private string _host="127,0,1";
+    private string _host="127.0.0.1";
     private int _port=8888;
     private string _sourceFile="";
     private TcpListener _listener;
-    private TcpClient _client;
-    private StreamReader _reader;
-    private StreamWriter _writer;
 
     public Boolean EchoEnabled { get; set; }
 
@@ -35,57 +32,50 @@ public class TcpServer
         Console.WriteLine("{0} > {1}", message.TimeReceived, message.Message);
     }
 
-    public Boolean StartUp()
+    public Boolean StartUpListener()
     {
         Console.WriteLine("Listening...");
         IPAddress ipAddress = IPAddress.Parse(_host);
         _listener = new TcpListener(ipAddress, _port);
         _listener.Start();
-        _client = _listener.AcceptTcpClient();
-        Console.WriteLine("Received connection request ...");
-        return _client.Connected;
+        Task.Run(async () =>
+        {
+            while (_listener.Server.IsBound)
+            {
+                try
+                {
+                    TcpClient client = _listener.AcceptTcpClient();
+                    Console.WriteLine("Received connection request ...");
+                    StartListeningAsync(client, new CancellationTokenSource().Token);
+                    Thread.Sleep(5000); // Give the client time to connect
+                }
+                catch (Exception ex)
+                {
+                    Logger.PrintException(ex);
+                    break;
+                }
+            }
+        });
+        return true;
     }
 
-    public async void StartListeningAsync(CancellationToken ct)
+    public async Task StartListeningAsync(TcpClient client, CancellationToken ct)
     {
-        _reader = new StreamReader(_client.GetStream());
+        StreamReader reader = new StreamReader(client.GetStream());
+        StreamWriter writer = new StreamWriter(client.GetStream()) { AutoFlush = true };
         var progress = new Progress<ClientMessage>(HandleProgress);
-        //while (!ct.IsCancellationRequested)
-        //{
-        try
+        while (!ct.IsCancellationRequested && client.Connected)
         {
-            var receiveTask = ReceiveAsync(progress, ct);
-            await receiveTask;
-        }
-        catch (Exception ex)
-        {
-            Logger.PrintException(ex);
-        }
-        //if (!ct.IsCancellationRequested) await Task.Delay(TimeSpan.FromMilliseconds(20));
-        //}
-    }
-
-    public async Task ReceiveAsync(IProgress<ClientMessage> progress, CancellationToken token)
-    {
-
-        if (_reader == null) return;
-
-        while (!token.IsCancellationRequested)
-        {
+            if (client is null || !client.Connected)
+                return;
             try
             {
-                if (!_client.Connected)
+                string? message = await reader.ReadLineAsync();
+                if (message == null)
                 {
                     Console.WriteLine("Client disconnected.");
-                    return; // Exit if the client is no longer connected
+                    break;
                 }
-                var message = await _reader.ReadLineAsync();
-                if (String.IsNullOrWhiteSpace(message))
-                    continue;
-                var result = new ClientMessage();
-                result.TimeReceived = DateTime.Now;
-                result.Message = message;
-                progress.Report(result);
                 string[] command = message.Split(' ');
                 switch (command[0])
                 {
@@ -93,9 +83,7 @@ public class TcpServer
                         {
                             try
                             {
-                                if (_writer == null)
-                                    _writer = new StreamWriter(_client.GetStream()) { AutoFlush = true };
-                                await _writer.WriteLineAsync(message);
+                                await writer.WriteLineAsync(message);
                             }
                             catch (System.IO.IOException exc)
                             {
@@ -107,32 +95,37 @@ public class TcpServer
                             if (command.Length > 1)
                             {
                                 string scriptToRun = command[1];
-                                Console.WriteLine("Client requested to run script: " + scriptToRun);
-                                await StartSendingScriptAsync(true, scriptToRun, token);
+                                Console.WriteLine("Client requested to send file: " + scriptToRun);
+                                await StartSendingScriptAsync(client, writer, true, scriptToRun, ct);
                             }
                             break;
                         }
                     case "EXIT":
                         {
                             Console.WriteLine("Client requested to exit.");
-                            _client.Close();
-                            _listener.Stop();
+                            reader.Close();
+                            writer.Close();
+                            client.Close();
                             return; // Exit the loop if the client sends "exit"
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Unknown command received: " + message);
+                            break;
                         }
 
                 }
             }
-            catch (Exception exe)
+            catch (Exception ex)
             {
-                Logger.PrintException(exe);
-                break;
+                Logger.PrintException(ex);
             }
-            continue;
+            Thread.Sleep(500);
         }
     }
 
     private Regex LogCleaner = new Regex(@"^Time.*[/][/][/][/]");
-    public async Task StartSendingScriptAsync(bool enableEcho, string scriptToRun, CancellationToken ct)
+    public async Task StartSendingScriptAsync(TcpClient client, StreamWriter writer, bool enableEcho, string scriptToRun, CancellationToken ct)
     {
         string filePath = @"..\..\..\TestData\" + scriptToRun;
         if (String.IsNullOrWhiteSpace(scriptToRun) || !File.Exists(filePath))
@@ -142,19 +135,18 @@ public class TcpServer
         }
 
         EchoEnabled = enableEcho;
-        _writer = new StreamWriter(_client.GetStream()) { AutoFlush = true };
-        if (_writer == null) return;
+        if (writer == null) return;
 
         Console.WriteLine("Sending Script");
         var allLines = File.ReadAllLines(filePath);
         foreach (String line in allLines)
         {
-            if (ct.IsCancellationRequested && _client.Connected)
+            if (ct.IsCancellationRequested || !client.Connected)
                 break;
             string cleaned = LogCleaner.Replace(line, "");
             try
             {
-                await _writer.WriteLineAsync(cleaned);
+                await writer.WriteLineAsync(cleaned);
             }
             catch (System.IO.IOException exe)
             {
@@ -165,9 +157,9 @@ public class TcpServer
                 Logger.PrintException(exc);
                 break;
             }
-            await Task.Delay(100).ConfigureAwait(false);
+            await Task.Delay(50).ConfigureAwait(false);
         }
-        await _writer.WriteLineAsync("EXIT");
+        await writer.WriteLineAsync("EXIT");
 
     }
 }

@@ -16,10 +16,7 @@ class Program
         Task.Run(() =>
         {
             var server = new TcpServer(host, port, sourcefile);
-            if (server.StartUp())
-            {
-                server.StartListeningAsync(tokenSource.Token);
-            }
+            server.StartUpListener();
         });
         if (args.Any(x => x.StartsWith("Client", StringComparison.OrdinalIgnoreCase)))
         {
@@ -31,6 +28,7 @@ class Program
                 client.InitEmulator(host, port, sourcefile);
             });
         }
+        Thread.Sleep(1000000);
         Console.WriteLine("Listening....Press Enter to Stop.");
         Console.ReadLine();
         tokenSource.Cancel();
