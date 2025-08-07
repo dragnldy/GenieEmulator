@@ -71,6 +71,7 @@ public class TcpServer
             try
             {
                 string? message = await reader.ReadLineAsync();
+                Console.WriteLine($"FS: Rcvd {message}");
                 if (message == null)
                 {
                     Console.WriteLine("Client disconnected.");
@@ -83,7 +84,7 @@ public class TcpServer
                         {
                             try
                             {
-                                await writer.WriteLineAsync(message);
+                                await writer.WriteLineAsync("FS:" + message);
                             }
                             catch (System.IO.IOException exc)
                             {
@@ -118,7 +119,10 @@ public class TcpServer
             }
             catch (Exception ex)
             {
-                Logger.PrintException(ex);
+                if (ex.Message.Contains("forcibly closed"))
+                    Console.WriteLine("Connection forcibly closed by client");
+                else
+                    Logger.PrintException(ex);
             }
             Thread.Sleep(500);
         }
