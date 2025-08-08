@@ -161,6 +161,7 @@ public class TcpServer
                 Logger.PrintException(exc);
                 break;
             }
+            Console.WriteLine(line);
             await Task.Delay(50).ConfigureAwait(false);
         }
         await writer.WriteLineAsync("EXIT");

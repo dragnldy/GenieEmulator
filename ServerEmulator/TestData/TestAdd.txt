@@ -1,0 +1,412 @@
+﻿<prompt time="1754636363">&gt;</prompt>
+<output class="mono"/>
+<pushBold/>    *************************IMPORTANT!*************************
+<popBold/>          Closing your front end does NOT necessarily drop
+          your character from the game!  Type QUIT or EXIT!
+<pushBold/>    *************************IMPORTANT!*************************
+<popBold/>     PvP has strict rules!  See NEWS 5 15, NEWS 5 24, NEWS 5 25!
+      Scripting is ok, but you must be responsive!  NEWS 5 17!
+           Vulgarity is not allowed in public!  NEWS 5 7!
+<pushBold/>    *************************IMPORTANT!*************************
+
+<popBold/><pushBold/>Login Tip:
+<popBold/>    Too much combat messaging when hunting with friends?  The COMBAT verb can help!
+    Read More: <d>HELP VERB COMBAT</d>
+    [To disable these login tips, see <d>HELP TIPS</d>.]
+<output class=""/>
+<prompt time="1754636363">&gt;</prompt>
+<pushBold/>******************************************************
+*** Please check <d>NEWS NEXT</d> for unread <d>NEWS</d> items. ***
+******************************************************
+<popBold/><prompt time="1754636363">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (1 roisan)
+<popStream/><prompt time="1754636365">&gt;</prompt>
+You are already holding that.
+<prompt time="1754636366">&gt;</prompt>
+<pushBold/>* Log-on system converted 100% of your character's field experience into earned rank. *
+<popBold/><prompt time="1754636368">&gt;</prompt>
+    ***********************SPECIAL EVENT!***********************
+       A special, game-wide roleplaying event is currently in
+     progress!  You may encounter oddities when casting spells.
+       Please do not ASSIST or REPORT about these!  Check the
+     calendar on the website for opportunities to get involved!
+    ***********************SPECIAL EVENT!***********************
+
+<prompt time="1754636373">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (1 roisan)
+<popStream/><prompt time="1754636375">&gt;</prompt>
+<left exist="9099267" noun="pouch">gem pouch</left><clearStream id='inv' ifClosed=''/><pushStream id='inv'/>Your worn items are:
+  a reinforced smokewhorl shield wreathed with dragonfire amber flames
+  a lightweight tel'athi chain balaclava woven with linen ribbons
+  some darkened smokewhorl leathers lined with vermilion firesilk
+  some weighty ka'hurst mail gloves richly padded with electroweave
+  a simple acanth basket woven with angora ribbons
+  a lumpy bundle
+  a gleaming steel armguard gilded with knotwork laurel
+  an everdusk damite survival knife with a smokewood hilt
+  a wizened Life Dragon carved from verdant e'erdream
+  a dergatine locksmith's strand fastened with a black diamond solitaire
+  a hand-stitched traveler's pack
+  a resplendent gloomwood ring
+  a prismatic mistglass ankle-chain dangling a dragonfire amber flying dragon
+  a grey leather haversack with a quartz crystal clasp
+  a gold-speckled coralite yiamura with sharkstone spines
+  an exotic green gem pouch of interwoven rafflesia vines
+  a pair of deathly black wings tipped with spiked talons
+  a handful of ivy leaves
+  a delicate black diamond armband inlaid with a golden dragon
+  a wide bone ring clutching a blackened Estate Holder's crest
+  a delicate black crystal earcuff in the shape of a sleeping baby dragon
+  a winterweave snow hawk with frostflare opal eyes
+  a shimmering strip of faeweave dusted with sky opal faeries
+  a stormy grey steelsilk fighting shirt
+  some dark leather fighting pants fastened with ebony studs
+  a tiny glass bottle
+  a glaes biomechanical harvester spider
+  a pickpocket's training bell dangling from a strip of torn titanese
+  a thick zenganne cloth lootsack
+  a pair of lava samite boots laced with black cord
+  an explorer's camlet toolbag clasped by a dwalgim-headed mikkhalbamar pickaxe
+  an effervescent eddy of honey-hued light captured by a sungold frame
+  an aurulent sanowret crystal set in a platinum wildling spider
+  a serpentine kirmiko ribbon
+  an imbricated demonscale thigh quiver secured with a gryphon talon
+  a jade spidersilk pouch clasped with a carved platinum dragon's talon
+  a light spidersilk hip pouch stitched with a dragon ouroboros
+  some jade wolves
+  a scarlet bee balm with frilly petals
+  a lifesculpted lirisan wristcuff of overlapping leaves
+  a lifesculpted lirisan wristcuff of overlapping leaves
+  a kyanite gwethdesuan
+  a dull serpent earcuff
+  a hexagonal cambrinth prism suspended from a long electrum chain
+  a dark watersilk bag bearing a detailed cambrinth medallion
+  a wide quelium ankle cuff inset with ocean's heart diamonds
+<popStream/>
+<clearContainer id="stow"/><inv id='stow'>In the pack:</inv><inv id='stow'> a card collector's case</inv><inv id='stow'> a large canvas sack bearing a jaggedly stitched emblem</inv><inv id='stow'> a darkened leather book painted with a variety of esoteric and lurid symbols</inv><inv id='stow'> a length of spun rainbow fabric</inv><inv id='stow'> a chalice</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a horse-bone stack</inv><inv id='stow'> a sickle-bone stack</inv><inv id='stow'> a faded vellum</inv><inv id='stow'> a fluffy hunter-green kitchen towel delicately embroidered with firewheel blossoms</inv><inv id='stow'> a night-black cookie tin vividly depicting the celestial enigma of Chris' Mass</inv><inv id='stow'> a worn and tattered map</inv><inv id='stow'> a stack of runner's passes</inv><inv id='stow'> a carved wooden brush with a silver inlaid handle</inv><inv id='stow'> a wax label</inv><inv id='stow'> a copper herbal case with a rich verdigris patina</inv><inv id='stow'> a clockwork shark</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a sleek aganylosh'a writing quill tipped with a long oceanic blue plume</inv><inv id='stow'> a dried gourd rattle wrapped in a mesh of beaded cords</inv><inv id='stow'> a necklace made up of a number of tiny rat skulls sewn onto a brilliant silver thread</inv><inv id='stow'> some polished thin-edged zills with silvered esoteric filigree</inv><inv id='stow'> a piece of dragon-shaped flint</inv><inv id='stow'> some mulberry-black dye</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a shiny blue xibaryl runestone marked with a symbol for Calm</inv><inv id='stow'> a boxy forest-green canvas tote with jackal-hide handles</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a compact sea-green writing slate with hickory borders</inv><inv id='stow'> a glaes-edged shovel with an azurelle grip</inv><inv id='stow'> an owl-shaped glass eye</inv><inv id='stow'> a pink striped candy bag tied with a white lace bow</inv><inv id='stow'> a coil of supple silvery blue rope of plaited silk</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a forest green long-necked gourd embellished at the rim with amber teardrops</inv><inv id='stow'> a silverwood vault book with openwork carvings</inv><inv id='stow'> a worn book bound in celestial-blue cashmere</inv><inv id='stow'> a worn book bound in eggshell dimity labeled "full"</inv><inv id='stow'> a worn book bound in periwinkle damask labeled "empty"</inv><inv id='stow'> a time slip</inv><inv id='stow'> a large packet of deed claim forms</inv><inv id='stow'> a white lotusweave deed register adorned with a blood-red mortar and pestle</inv><inv id='stow'> a braided smokewhorl whip with fire whirl rubies set into a long tapered handle</inv><inv id='stow'> a sleek ka'hurst meteor hammer with twin star-shaped heads</inv><inv id='stow'> a Guildleader Macfrae card</inv><inv id='stow'> a desert armadillo covered in imbricated felt scales secured with thick seams</inv><inv id='stow'> a horned cambrinth dragon skull set with eyes of red-orange erythraean</inv><inv id='stow'> an Immortal Demrris card</inv><inv id='stow'> a small fuzzy caracal with tufted ears and double-stitched seams</inv><inv id='stow'> an elegant diamond-hide almanac bearing a platinum Estate Holder's crest</inv>You get a small cloth-of-silver gem pouch with scalloped edges from inside your traveler's pack.
+<prompt time="1754636375">&gt;</prompt>
+<output class=""/>
+<prompt time="1754636376">&gt;</prompt>
+<left>Empty</left><clearStream id='inv' ifClosed=''/><pushStream id='inv'/>Your worn items are:
+  a reinforced smokewhorl shield wreathed with dragonfire amber flames
+  a lightweight tel'athi chain balaclava woven with linen ribbons
+  some darkened smokewhorl leathers lined with vermilion firesilk
+  some weighty ka'hurst mail gloves richly padded with electroweave
+  a simple acanth basket woven with angora ribbons
+  a lumpy bundle
+  a gleaming steel armguard gilded with knotwork laurel
+  an everdusk damite survival knife with a smokewood hilt
+  a wizened Life Dragon carved from verdant e'erdream
+  a dergatine locksmith's strand fastened with a black diamond solitaire
+  a hand-stitched traveler's pack
+  a resplendent gloomwood ring
+  a prismatic mistglass ankle-chain dangling a dragonfire amber flying dragon
+  a grey leather haversack with a quartz crystal clasp
+  a gold-speckled coralite yiamura with sharkstone spines
+  an exotic green gem pouch of interwoven rafflesia vines
+  a pair of deathly black wings tipped with spiked talons
+  a handful of ivy leaves
+  a delicate black diamond armband inlaid with a golden dragon
+  a wide bone ring clutching a blackened Estate Holder's crest
+  a delicate black crystal earcuff in the shape of a sleeping baby dragon
+  a winterweave snow hawk with frostflare opal eyes
+  a shimmering strip of faeweave dusted with sky opal faeries
+  a stormy grey steelsilk fighting shirt
+  some dark leather fighting pants fastened with ebony studs
+  a tiny glass bottle
+  a glaes biomechanical harvester spider
+  a pickpocket's training bell dangling from a strip of torn titanese
+  a thick zenganne cloth lootsack
+  a pair of lava samite boots laced with black cord
+  an explorer's camlet toolbag clasped by a dwalgim-headed mikkhalbamar pickaxe
+  an effervescent eddy of honey-hued light captured by a sungold frame
+  an aurulent sanowret crystal set in a platinum wildling spider
+  a serpentine kirmiko ribbon
+  an imbricated demonscale thigh quiver secured with a gryphon talon
+  a jade spidersilk pouch clasped with a carved platinum dragon's talon
+  a light spidersilk hip pouch stitched with a dragon ouroboros
+  some jade wolves
+  a scarlet bee balm with frilly petals
+  a lifesculpted lirisan wristcuff of overlapping leaves
+  a lifesculpted lirisan wristcuff of overlapping leaves
+  a kyanite gwethdesuan
+  a dull serpent earcuff
+  a hexagonal cambrinth prism suspended from a long electrum chain
+  a dark watersilk bag bearing a detailed cambrinth medallion
+  a wide quelium ankle cuff inset with ocean's heart diamonds
+<popStream/>
+<clearContainer id="stow"/><inv id='stow'>In the pack:</inv><inv id='stow'> a small cloth-of-silver gem pouch with scalloped edges</inv><inv id='stow'> a card collector's case</inv><inv id='stow'> a large canvas sack bearing a jaggedly stitched emblem</inv><inv id='stow'> a darkened leather book painted with a variety of esoteric and lurid symbols</inv><inv id='stow'> a length of spun rainbow fabric</inv><inv id='stow'> a chalice</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a horse-bone stack</inv><inv id='stow'> a sickle-bone stack</inv><inv id='stow'> a faded vellum</inv><inv id='stow'> a fluffy hunter-green kitchen towel delicately embroidered with firewheel blossoms</inv><inv id='stow'> a night-black cookie tin vividly depicting the celestial enigma of Chris' Mass</inv><inv id='stow'> a worn and tattered map</inv><inv id='stow'> a stack of runner's passes</inv><inv id='stow'> a carved wooden brush with a silver inlaid handle</inv><inv id='stow'> a wax label</inv><inv id='stow'> a copper herbal case with a rich verdigris patina</inv><inv id='stow'> a clockwork shark</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a sleek aganylosh'a writing quill tipped with a long oceanic blue plume</inv><inv id='stow'> a dried gourd rattle wrapped in a mesh of beaded cords</inv><inv id='stow'> a necklace made up of a number of tiny rat skulls sewn onto a brilliant silver thread</inv><inv id='stow'> some polished thin-edged zills with silvered esoteric filigree</inv><inv id='stow'> a piece of dragon-shaped flint</inv><inv id='stow'> some mulberry-black dye</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a shiny blue xibaryl runestone marked with a symbol for Calm</inv><inv id='stow'> a boxy forest-green canvas tote with jackal-hide handles</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a compact sea-green writing slate with hickory borders</inv><inv id='stow'> a glaes-edged shovel with an azurelle grip</inv><inv id='stow'> an owl-shaped glass eye</inv><inv id='stow'> a pink striped candy bag tied with a white lace bow</inv><inv id='stow'> a coil of supple silvery blue rope of plaited silk</inv><inv id='stow'> a kirmhiro draught</inv><inv id='stow'> a forest green long-necked gourd embellished at the rim with amber teardrops</inv><inv id='stow'> a silverwood vault book with openwork carvings</inv><inv id='stow'> a worn book bound in celestial-blue cashmere</inv><inv id='stow'> a worn book bound in eggshell dimity labeled "full"</inv><inv id='stow'> a worn book bound in periwinkle damask labeled "empty"</inv><inv id='stow'> a time slip</inv><inv id='stow'> a large packet of deed claim forms</inv><inv id='stow'> a white lotusweave deed register adorned with a blood-red mortar and pestle</inv><inv id='stow'> a braided smokewhorl whip with fire whirl rubies set into a long tapered handle</inv><inv id='stow'> a sleek ka'hurst meteor hammer with twin star-shaped heads</inv><inv id='stow'> a Guildleader Macfrae card</inv><inv id='stow'> a desert armadillo covered in imbricated felt scales secured with thick seams</inv><inv id='stow'> a horned cambrinth dragon skull set with eyes of red-orange erythraean</inv><inv id='stow'> an Immortal Demrris card</inv><inv id='stow'> a small fuzzy caracal with tufted ears and double-stitched seams</inv><inv id='stow'> an elegant diamond-hide almanac bearing a platinum Estate Holder's crest</inv>You put your pouch in your traveler's pack.
+<prompt time="1754636379">&gt;</prompt>
+<right>Empty</right><clearStream id='inv' ifClosed=''/><pushStream id='inv'/>Your worn items are:
+  a reinforced smokewhorl shield wreathed with dragonfire amber flames
+  a lightweight tel'athi chain balaclava woven with linen ribbons
+  some darkened smokewhorl leathers lined with vermilion firesilk
+  some weighty ka'hurst mail gloves richly padded with electroweave
+  a simple acanth basket woven with angora ribbons
+  a lumpy bundle
+  a gleaming steel armguard gilded with knotwork laurel
+  an everdusk damite survival knife with a smokewood hilt
+  a wizened Life Dragon carved from verdant e'erdream
+  a dergatine locksmith's strand fastened with a black diamond solitaire
+  a hand-stitched traveler's pack
+  a resplendent gloomwood ring
+  a prismatic mistglass ankle-chain dangling a dragonfire amber flying dragon
+  a grey leather haversack with a quartz crystal clasp
+  a gold-speckled coralite yiamura with sharkstone spines
+  an exotic green gem pouch of interwoven rafflesia vines
+  a pair of deathly black wings tipped with spiked talons
+  a handful of ivy leaves
+  a delicate black diamond armband inlaid with a golden dragon
+  a wide bone ring clutching a blackened Estate Holder's crest
+  a delicate black crystal earcuff in the shape of a sleeping baby dragon
+  a winterweave snow hawk with frostflare opal eyes
+  a shimmering strip of faeweave dusted with sky opal faeries
+  a stormy grey steelsilk fighting shirt
+  some dark leather fighting pants fastened with ebony studs
+  a tiny glass bottle
+  a glaes biomechanical harvester spider
+  a pickpocket's training bell dangling from a strip of torn titanese
+  a thick zenganne cloth lootsack
+  a pair of lava samite boots laced with black cord
+  an explorer's camlet toolbag clasped by a dwalgim-headed mikkhalbamar pickaxe
+  an effervescent eddy of honey-hued light captured by a sungold frame
+  an aurulent sanowret crystal set in a platinum wildling spider
+  a serpentine kirmiko ribbon
+  an imbricated demonscale thigh quiver secured with a gryphon talon
+  a jade spidersilk pouch clasped with a carved platinum dragon's talon
+  a light spidersilk hip pouch stitched with a dragon ouroboros
+  some jade wolves
+  a scarlet bee balm with frilly petals
+  a lifesculpted lirisan wristcuff of overlapping leaves
+  a lifesculpted lirisan wristcuff of overlapping leaves
+  a kyanite gwethdesuan
+  a dull serpent earcuff
+  a hexagonal cambrinth prism suspended from a long electrum chain
+  a dark watersilk bag bearing a detailed cambrinth medallion
+  a wide quelium ankle cuff inset with ocean's heart diamonds
+<popStream/>
+You put your cutlass in your hip pouch.
+<prompt time="1754636382">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (1 roisan)
+<popStream/><prompt time="1754636385">&gt;</prompt>
+<spell exist='spell'>Instinct</spell>Since you're not feeding enough power into the spell pattern to make it coherent, you quickly work your way to the minimum required.
+That won't affect your current attunement very much.
+<castTime value='1754636406'/>
+With calm movements you prepare your body for the Instinct spell.
+<prompt time="1754636387">&gt;</prompt>
+The leaves on your lirisan wristcuff briefly shimmer with a soothing verdant light that strengthens your connection to nature.
+<prompt time="1754636391">&gt;</prompt>
+<dialogData id="injuries"><image id="head" name="head" height="0" width="0"/><image id="neck" name="neck" height="0" width="0"/><image id="rightArm" name="rightArm" height="0" width="0"/><image id="leftArm" name="leftArm" height="0" width="0"/><image id="rightLeg" name="rightLeg" height="0" width="0"/><image id="leftLeg" name="leftLeg" height="0" width="0"/><image id="rightHand" name="rightHand" height="0" width="0"/><image id="leftHand" name="leftHand" height="0" width="0"/><image id="chest" name="chest" height="0" width="0"/><image id="abdomen" name="abdomen" height="0" width="0"/><image id="back" name="back" height="0" width="0"/><image id="rightEye" name="rightEye" height="0" width="0"/><image id="leftEye" name="leftEye" height="0" width="0"/><image id="rightFoot" name="rightFoot" height="0" width="0"/><image id="nsys" name="nsys" height="0" width="0"/></dialogData>
+<dialogData id="injuries"><skin id="healthSkin" name="healthBar2" controls="health2" align="n" top="160" width="140" left="0" height="15"/><progressBar id="health2" value="100" text="HEALTH 100%" customText="t" align="n" top="160" width="140" left="0" height="15"/></dialogData><prompt time="1754636395">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (1 roisan)
+<popStream/><prompt time="1754636395">&gt;</prompt>
+<clearStream id="percWindow"/>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='99' text='mana 99%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='99' text='fatigue 99%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><progressBar id='concentration' value='99' text='concentration 99%' left='80%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<spell>None</spell>You gesture.
+Your muscles twitch with nervous energy as the spell takes hold.  A small part of your mind becomes preoccupied with listing every single way harm could befall you at the moment.
+<pushStream id="percWindow"/>Gauge Flow  (1 roisan)
+Instinct  (10 roisaen)
+<popStream/><castTime value='1754636400'/>
+<prompt time="1754636400">&gt;</prompt>
+<component id='exp Attunement'><preset id='whisper'>      Attunement:  985 58% dabbling     </preset></component>
+<clearStream id="percWindow"/>
+<roundTime value='1754636407'/>You reach out with your senses and see fulgent (16/21) streams of deep green and blue Life mana flowing through the area.
+<pushStream id="percWindow"/>Gauge Flow  (Fading)
+Instinct  (10 roisaen)
+<popStream/>You sense the Gauge Flow spell upon you, which will last less than a roisan.
+You sense the Instinct spell upon you, which will last for about ten roisaen.
+You remember a way to combine the weaves of the Resolve symbiosis with another spell.
+Roundtime: 3 sec.
+<prompt time="1754636404">R&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (Fading)
+Instinct  (10 roisaen)
+<popStream/><prompt time="1754636405">R&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='100' text='fatigue 100%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><progressBar id='concentration' value='100' text='concentration 100%' left='80%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+You feel fully rested.
+You feel fully attuned to the mana streams again.
+<prompt time="1754636406">R&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636412">&gt;</prompt>
+You lope out.
+<nav/>
+<streamWindow id='main' title='Story' subtitle=" - [Derelict Road, Whistling Wood]" location='center' target='drop'/>
+<streamWindow id='room' title='Room' subtitle=" - [Derelict Road, Whistling Wood]" location='center' target='drop' ifClosed='' resident='true'/>
+<component id='room desc'>The road winds around a large pile of stones shaped like a cairn.  Several trees have fallen against the side, partially obstructing the entrance.  Only a small piece of the door, near the top of the cairn, remains open.</component>
+<component id='room objs'>You also see a narrow path which leads deeper into the Whistling Wood.</component>
+<component id='room players'></component>
+<component id='room exits'>Obvious paths: <d>north</d>, <d>southeast</d>.<compass></compass></component>
+<component id='room extra'></component>
+<resource picture="0"/><style id="roomName" />[Derelict Road, Whistling Wood]
+<style id=""/><preset id='roomDesc'>The road winds around a large pile of stones shaped like a cairn.  Several trees have fallen against the side, partially obstructing the entrance.  Only a small piece of the door, near the top of the cairn, remains open.</preset>  You also see a narrow path which leads deeper into the Whistling Wood.
+Obvious paths: <d>north</d>, <d>southeast</d>.
+<compass><dir value="n"/><dir value="se"/></compass><component id='room players'></component>
+<prompt time="1754636412">&gt;</prompt>
+<nav/>
+<streamWindow id='main' title='Story' subtitle=" - [Whistling Wood, Path]" location='center' target='drop'/>
+<streamWindow id='room' title='Room' subtitle=" - [Whistling Wood, Path]" location='center' target='drop' ifClosed='' resident='true'/>
+<component id='room desc'>The narrow trail curves to the west towards a long row of earthen mounds.  Interlaced in a web of worm-eaten wood, the bare branches of the whistling wood hang low over the beaten path.  Curiously devoid of the sounds of animal life present in most woods, the silence beneath the trees weighs heavily on the air.</component>
+<component id='room objs'>You also see a narrow path which leads to the derelict road.</component>
+<component id='room players'></component>
+<component id='room exits'>Obvious paths: <d>west</d>.<compass></compass></component>
+<component id='room extra'></component>
+<resource picture="0"/><style id="roomName" />[Whistling Wood, Path]
+<style id=""/><preset id='roomDesc'>The narrow trail curves to the west towards a long row of earthen mounds.  Interlaced in a web of worm-eaten wood, the bare branches of the whistling wood hang low over the beaten path.  Curiously devoid of the sounds of animal life present in most woods, the silence beneath the trees weighs heavily on the air.</preset>  You also see a narrow path which leads to the derelict road.
+Obvious paths: <d>west</d>.
+<compass><dir value="w"/></compass><component id='room players'></component>
+<prompt time="1754636414">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (Fading)
+Instinct  (10 roisaen)
+<popStream/><prompt time="1754636415">&gt;</prompt>
+You lope west.
+<nav/>
+<streamWindow id='main' title='Story' subtitle=" - [Whistling Wood, Path]" location='center' target='drop'/>
+<streamWindow id='room' title='Room' subtitle=" - [Whistling Wood, Path]" location='center' target='drop' ifClosed='' resident='true'/>
+<component id='room desc'>Like the footprint of a giant bird, the trail branches in three directions.  One branch curves toward the northwest, where a large hill of dirt and rock rises from the earth.  Another leads deeper into the dead silence of the wood, its end lost in the dark shadows beneath the trees.  The third branch leads east towards the derelict road.</component>
+<component id='room objs'>You also see some dried dioica, a gnarled sign and a dead tree with a darkened hollow near its base.</component>
+<component id='room players'>Also here: Stars' Silence Kystrk and Regenerator Nyandoma.</component>
+<component id='room exits'>Obvious paths: <d>east</d>, <d>southwest</d>, <d>northwest</d>.<compass></compass></component>
+<component id='room extra'></component>
+<resource picture="0"/><style id="roomName" />[Whistling Wood, Path]
+<style id=""/><preset id='roomDesc'>Like the footprint of a giant bird, the trail branches in three directions.  One branch curves toward the northwest, where a large hill of dirt and rock rises from the earth.  Another leads deeper into the dead silence of the wood, its end lost in the dark shadows beneath the trees.  The third branch leads east towards the derelict road.</preset>  You also see some dried dioica, a gnarled sign and a dead tree with a darkened hollow near its base.
+Also here: Stars' Silence Kystrk and Regenerator Nyandoma.
+Obvious paths: <d>east</d>, <d>southwest</d>, <d>northwest</d>.
+<compass><dir value="e"/><dir value="sw"/><dir value="nw"/></compass><component id='room players'>Also here: Stars' Silence Kystrk and Regenerator Nyandoma.</component>
+<prompt time="1754636415">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (Fading)
+Instinct  (9 roisaen)
+<popStream/><prompt time="1754636425">&gt;</prompt>
+Please rephrase that command.
+<prompt time="1754636425">&gt;</prompt>
+Kystrk gestures.
+A black and white nebula forms high in the sky.  Currents spin within the nebula as it condenses and descends toward you.
+The nebula speeds up as it descends, until it resolves into a rapidly churning disk a foot off the ground.
+<component id='room objs'>You also see an unstable monochromatic circle, some dried dioica, a gnarled sign and a dead tree with a darkened hollow near its base.</component>
+<prompt time="1754636432">&gt;</prompt>
+Kystrk draws his hand into the unstable disk.  Light and shadows race up his arm and into his body with a violent rush!  Within a moment the circle is consumed.
+<component id='room objs'>You also see some dried dioica, a gnarled sign and a dead tree with a darkened hollow near its base.</component>
+<prompt time="1754636432">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (Fading)
+Instinct  (9 roisaen)
+<popStream/><prompt time="1754636435">&gt;</prompt>
+<roundTime value='1754636467'/><dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='10' text='fatigue 10%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+You reach out, sensing the latent nexus and attempt to forge a connection with it.
+Before you can register it happening, a part of you is ripped violently away, leaving you reeling!
+Roundtime: 30 sec.
+
+The air thrums with the further addition of your sacrificed power.
+<prompt time="1754636437">R&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (Fading)
+Instinct  (9 roisaen)
+<popStream/><prompt time="1754636445">R&gt;</prompt>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='12' text='fatigue 12%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+Your kirmiko ribbon briefly shimmers with a pale light, and you feel more refreshed.
+<prompt time="1754636452">R&gt;</prompt>
+Helro just arrived.
+<component id='room players'>Also here: Helro, Stars' Silence Kystrk and Regenerator Nyandoma.</component>
+<prompt time="1754636453">R&gt;</prompt>
+Helro goes northwest.
+<component id='room players'>Also here: Stars' Silence Kystrk and Regenerator Nyandoma.</component>
+<prompt time="1754636453">R&gt;</prompt>
+<dialogData id="injuries"><image id="head" name="head" height="0" width="0"/><image id="neck" name="neck" height="0" width="0"/><image id="rightArm" name="rightArm" height="0" width="0"/><image id="leftArm" name="leftArm" height="0" width="0"/><image id="rightLeg" name="rightLeg" height="0" width="0"/><image id="leftLeg" name="leftLeg" height="0" width="0"/><image id="rightHand" name="rightHand" height="0" width="0"/><image id="leftHand" name="leftHand" height="0" width="0"/><image id="chest" name="chest" height="0" width="0"/><image id="abdomen" name="abdomen" height="0" width="0"/><image id="back" name="back" height="0" width="0"/><image id="rightEye" name="rightEye" height="0" width="0"/><image id="leftEye" name="leftEye" height="0" width="0"/><image id="rightFoot" name="rightFoot" height="0" width="0"/><image id="nsys" name="nsys" height="0" width="0"/></dialogData>
+<dialogData id="injuries"><skin id="healthSkin" name="healthBar2" controls="health2" align="n" top="160" width="140" left="0" height="15"/><progressBar id="health2" value="100" text="HEALTH 100%" customText="t" align="n" top="160" width="140" left="0" height="15"/></dialogData><prompt time="1754636455">R&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Gauge Flow  (Fading)
+Instinct  (9 roisaen)
+<popStream/><prompt time="1754636455">R&gt;</prompt>
+Kystrk gestures.
+Kystrk's tomiek-iguji broodling emits a loud *snap*.
+<prompt time="1754636455">R&gt;</prompt>
+Stars' Silence Kystrk drifts northwest.
+<component id='room players'>Also here: Regenerator Nyandoma.</component>
+<prompt time="1754636456">R&gt;</prompt>
+Your eyes briefly darken.  When you regain sight, the graphs and sigils previously impressed upon your vision have disappeared.
+<prompt time="1754636461">R&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='15' text='fatigue 15%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636462">R&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Instinct  (9 roisaen)
+<popStream/><prompt time="1754636465">R&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='21' text='fatigue 21%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636468">&gt;</prompt>
+<output class="mono"/>
+
+Circle: 200
+Showing Survival skills with field experience.
+
+          SKILL: Rank/Percent towards next rank/Amount learning/Mindstate Fraction
+
+        No skills have field experience or none meet your criteria!
+
+Total Ranks Displayed: 0
+Survival Average: 0    Skills Included: 0.
+Time Development Points: 2333  Favors: 24  Deaths: 302  Departs: 27
+Rested EXP Stored: 6 hours  Usable This Cycle: 6 hours  Cycle Refreshes: 8:22 hours
+Overall state of mind: clear
+EXP HELP for more information
+<output class=""/>
+<prompt time="1754636468">&gt;</prompt>
+You are extremely fatigued.
+<prompt time="1754636468">&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='27' text='fatigue 27%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636474">&gt;</prompt>
+You lope east.
+<nav/>
+<streamWindow id='main' title='Story' subtitle=" - [Whistling Wood, Path]" location='center' target='drop'/>
+<streamWindow id='room' title='Room' subtitle=" - [Whistling Wood, Path]" location='center' target='drop' ifClosed='' resident='true'/>
+<component id='room desc'>The narrow trail curves to the west towards a long row of earthen mounds.  Interlaced in a web of worm-eaten wood, the bare branches of the whistling wood hang low over the beaten path.  Curiously devoid of the sounds of animal life present in most woods, the silence beneath the trees weighs heavily on the air.</component>
+<component id='room objs'>You also see a narrow path which leads to the derelict road.</component>
+<component id='room players'></component>
+<component id='room exits'>Obvious paths: <d>west</d>.<compass></compass></component>
+<component id='room extra'></component>
+<resource picture="0"/><style id="roomName" />[Whistling Wood, Path]
+<style id=""/><preset id='roomDesc'>The narrow trail curves to the west towards a long row of earthen mounds.  Interlaced in a web of worm-eaten wood, the bare branches of the whistling wood hang low over the beaten path.  Curiously devoid of the sounds of animal life present in most woods, the silence beneath the trees weighs heavily on the air.</preset>  You also see a narrow path which leads to the derelict road.
+Obvious paths: <d>west</d>.
+<compass><dir value="w"/></compass><component id='room players'></component>
+<prompt time="1754636474">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Instinct  (9 roisaen)
+<popStream/><prompt time="1754636475">&gt;</prompt>
+<output class=""/>
+<prompt time="1754636476">&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='30' text='fatigue 30%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636480">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Instinct  (8 roisaen)
+<popStream/><prompt time="1754636485">&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='33' text='fatigue 33%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636486">&gt;</prompt>
+The leaves on your lirisan wristcuff briefly shimmer with a soothing verdant light that strengthens your connection to nature.
+<prompt time="1754636491">&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='39' text='fatigue 39%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636492">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Instinct  (8 roisaen)
+<popStream/><prompt time="1754636495">&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='42' text='fatigue 42%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636498">&gt;</prompt>
+<dialogData id='minivitals'><skin id='manaSkin' name='manaBar' controls='mana' left='20%' top='0%' width='20%' height='100%'/><progressBar id='mana' value='100' text='mana 100%' left='20%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<dialogData id='minivitals'><skin id='staminaSkin' name='staminaBar' controls='stamina' left='40%' top='0%' width='20%' height='100%'/><progressBar id='stamina' value='48' text='fatigue 48%' left='40%' customText='t' top='0%' width='20%' height='100%'/></dialogData>
+<prompt time="1754636504">&gt;</prompt>
+<clearStream id="percWindow"/>
+<pushStream id="percWindow"/>Instinct  (8 roisaen)
+<popStream/><prompt time="1754636505">&gt;</prompt>
